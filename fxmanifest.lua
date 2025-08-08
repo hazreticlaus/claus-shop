@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'Claus'
-description 'ox_inventory shop script for qb and ox target'
+description 'a ox_inventory shop script for qb and ox target'
 
 shared_scripts {
     '@ox_lib/init.lua',
@@ -17,3 +17,4 @@ server_scripts {
     '@oxmysql/lib/MySQL.lua',
     'sv_main.lua',
 }
+
