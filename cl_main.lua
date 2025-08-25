@@ -24,7 +24,7 @@ CreateThread(function()
                                 claus.Functions.Notify("Bu dükkana erişimin yok!", "error")
                                 return
                             end
-                            TriggerServerEvent("custom_shops:openShop", shop.name)
+                            TriggerServerEvent("claus-shop:openShop", shop.name)
                         end
                     }
                 })
@@ -40,7 +40,7 @@ CreateThread(function()
                                     claus.Functions.Notify("Bu dükkana erişimin yok!", "error")
                                     return
                                 end
-                                TriggerServerEvent("custom_shops:openShop", shop.name)
+                                TriggerServerEvent("claus-shop:openShop", shop.name)
                             end
                         }
                     },
