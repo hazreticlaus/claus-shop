@@ -1,4 +1,4 @@
-RegisterNetEvent("custom_shops:openShop", function(shopName)
+RegisterNetEvent("claus-shop:openShop", function(shopName)
     local src = source
     local shopData = nil
 
@@ -26,3 +26,4 @@ RegisterNetEvent("custom_shops:openShop", function(shopName)
 
     TriggerClientEvent('ox_inventory:openInventory', src, 'shop', { type = shopData.name })
 end)
+
